@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<h1>Diferentes tipos de tags</h1>
-		<p>Tenemos los diferentes tamanhos de titulos</p>
+		<p>Tenemos los diferentes tamaños de títulos</p>
 
 		<!-- Esta es la forma de comentar algo sin que sea renderizado por el navegador-->
 
@@ -26,7 +26,7 @@
 		>
 		<p></p>
 
-		<!-- Tenemos diferentes tipos de tags que ocupan toda la linea o solo el contenido que tienen (inline tag) no toman todo el ancho de la pagin-->
+		<!-- Tenemos diferentes tipos de tags que ocupan toda la linea o solo el contenido que tienen (inline tag) no toman todo el ancho de la página-->
 
 		Por ejemplo tengo una linea que es inline
 
@@ -34,17 +34,41 @@
 
 		Pero si tengo un inline que
 
-		<a href="">Es interrumpedia por un inline, este continua</a>
+		<a href="">Es interrumpida por un inline, este continua</a>
 
 		Esto nos sirve para poder agregar Por otra parte el tag de paragraph es un
 		block tag muy usado, y por otro parte puedo usarlo span como un inline tag
 
 		<h2>paragraph tag</h2>
-		<p>Este es un parrafo dentro de un p, que es un blok tag</p>
+		<p>Este es un párrafo dentro de un p, que es un block tag</p>
 
 		<h2>span tag</h2>
 		<span>Este texto esta dentro de un span tag</span>
 		y es inline tag
 		<button>Button</button>*Es inline*
+		<h2>Agregar imágenes</h2>
+		<p>
+			También existe la forma de agregar imágenes a nuestro archivo html. Esta
+			por cierto, es una self closing tabs, lo que significa que no requiere una
+			expresión para cerrarla &lt /img &gt
+		</p>
+
+		<img src="descarga.jfif" alt="" />
+
+		<h2>Agregar videos</h2>
+		<p>
+			Estos deben ser agregados como archivos y no como lins, para eso se usa
+			otra etiqueta
+		</p>
+		<video>
+			<source src="https://www.w3schools.com/html/mov_bbb.mp4" />
+		</video>
+		<p>Se usa la etiqueta iframe para insertar videos de youtube.com</p>
+		<iframe
+			width="420"
+			height="315"
+			src="https://www.youtube.com/embed/tgbNymZ7vqY"
+		>
+		</iframe>
 	</body>
 </html>
